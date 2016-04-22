@@ -1,0 +1,123 @@
+
+.deitlsview{
+    background-color: #efefef;
+    position: absolute;
+    min-height: 100%;
+    width: 100%;
+    .deitlsview_content {
+        background-color: #FFF;
+        margin-bottom:0.1rem;
+        .swup{
+            float:left;
+            width: 43%;
+            .focus .hd ul{
+                text-align: center;
+            }
+        }
+        .shop_info{
+            float: right;
+            width:57%;
+            padding:0 0.33rem;
+            padding-top: 0.6rem;
+            .shop_title{
+                color: #333;
+                font-size: .36rem;
+                overflow: hidden;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                word-break: break-all;
+                text-overflow: ellipsis;
+                margin-bottom: .05rem;
+                min-height: .6rem;
+            }
+            .shop_content{
+                display: -webkit-box;
+                margin-top: 0.2rem;
+                    .shop_content_left{
+                        -webkit-box-flex:1;
+                        padding-right: 0.3rem;
+                        .left_price{
+                            color: #dd0000;
+                            line-height: 1;
+                            span:first-child{
+                                font-size:0.46rem;
+                                margin-right: 0.05rem;
+                            }
+                            span:last-child{
+                                font-size:0.6rem;
+                                font-family: Arial;
+                            }
+                        }
+                        .left_num{
+                            font-size: 0.26rem;
+                            line-height: 0.67rem;
+                            span{
+                                margin-right: 0.1rem;
+                            }
+                        }
+                        .left_bored{
+                            color: #dd0000;
+                            font-size: 0.3rem;
+                            background-color: #ffeded;
+                            border:1px solid #dd0000;
+                            height: 0.6rem;
+                            line-height: 0.6rem;
+                            text-align: center;
+                            max-width: 360px;
+                        }
+                    }
+                    .shop_content_code{
+                        width: 1.86rem;
+                        height: 1.86rem;
+                        display: inline-block;
+                        margin-right: 0.7rem;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+
+              }
+              .shop_info_cll{
+                font-size: 0.22rem;
+                line-height: 1.9;
+                span:first-child{
+                    color:#666;
+                    width: 1.3rem;
+                    display: inline-block;
+                }
+
+              }
+        }
+    }
+
+    .deitlsview_content:after{
+            content: "";
+            display: block;
+            height: 0;
+            clear: both;
+            visibility: hidden;
+        }
+    .deitlsimgs{
+        
+        .deitlsimgs_title{
+            margin-bottom: 0.06rem;
+            text-align: center;;
+            color: #333;
+            background-color: #FFF;
+            font-size: 0.27rem;
+            line-height: 0.5rem;
+            height: 0.5rem;
+
+        }
+        .imgbox{
+            background-color: #FFF;
+            text-align: center;
+            img{
+                margin: 0 auto;
+                max-width: 100%;
+            }
+        }
+    }
+}

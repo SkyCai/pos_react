@@ -1,0 +1,54 @@
+
+.seachview{
+    display: block;
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    background-color: white;
+    left: 0;
+    top: 0;
+    padding-top: 0.8rem;
+    header{
+        border-bottom: 0;
+    }
+
+    .seachview_content{
+        .seach_hot{
+
+            .seach_hot_title{
+                padding:0.2rem 8%;
+                span:first-child{
+                     background: url("/src/images/search_hot.png") no-repeat;
+                     background-size:  100% 100%;
+                     width: 0.21rem;
+                     height: 0.24rem;
+                     vertical-align: middle;
+                     display: inline-block;
+                }
+                span:last-child{
+                    font-size: 0.27rem;
+                    vertical-align: middle;
+                    display: inline-block;
+                    color: #333;
+                }
+            }
+            ul {
+                 padding:0.2rem 0;
+                 padding-left: 8%;
+                li{
+                    line-height: 0.55rem;
+                    height: 0.55rem;
+                    padding:0 0.33rem;
+                    color: #666;
+                    font-size: 0.26rem;
+                    float: left;
+                    border:1px solid #e3e3e3;
+                    background-color: #fafafa;
+                    margin-right: 0.55rem;
+                    margin-bottom: 0.27rem;
+
+                }
+            }
+        }
+    }
+}
